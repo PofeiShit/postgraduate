@@ -1,0 +1,51 @@
+﻿生成启动时间为 2018/1/29 23:19:21。
+     1>项目“C:\Users\Zack.J\Desktop\ImageZ\detailEnhance\detailEnhance.vcxproj”在节点 2 上(rebuild 个目标)。
+     1>_PrepareForClean:
+         正在删除文件“Release\detailEnhance.lastbuildstate”。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(299,5): warning MSB8004: Output 目录未以斜杠结尾。此生成实例将添加斜杠，因为必须有这个斜杠才能正确计算 Output 目录。
+       InitializeBuildStatus:
+         正在创建“Release\detailEnhance.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D DETAILENHANCE_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Release\detailEnhance.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D DETAILENHANCE_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\detailEnhance.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt detailEnhance.cpp
+         detailEnhance.cpp
+     1>detailEnhance.cpp(202): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>detailEnhance.cpp(398): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>detailEnhance.cpp(422): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>detailEnhance.cpp(609): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>detailEnhance.cpp(633): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>detailEnhance.cpp(857): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>detailEnhance.cpp(861): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>detailEnhance.cpp(862): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : 参见“fopen”的声明
+     1>detailEnhance.cpp(869): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>detailEnhance.cpp(893): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+     1>detailEnhance.cpp(894): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+     1>detailEnhance.cpp(944): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>detailEnhance.cpp(949): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>detailEnhance.cpp(918): warning C4101: “start_t”: 未引用的局部变量
+     1>detailEnhance.cpp(918): warning C4101: “stop_t”: 未引用的局部变量
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D DETAILENHANCE_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt dllmain.cpp
+         dllmain.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\ImageZ\bin\Release\detailEnhance.dll" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\detailEnhance.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Zack.J\Desktop\ImageZ\ImageZ\bin\Release\detailEnhance.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\ImageZ\bin\Release\detailEnhance.lib" /MACHINE:X86 /DLL Release\detailEnhance.obj
+         Release\dllmain.obj
+         Release\stdafx.obj
+            正在创建库 ..\ImageZ\bin\Release\detailEnhance.lib 和对象 ..\ImageZ\bin\Release\detailEnhance.exp
+         正在生成代码
+         已完成代码的生成
+         detailEnhance.vcxproj -> C:\Users\Zack.J\Desktop\ImageZ\detailEnhance\..\ImageZ\bin\Release\detailEnhance.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"..\ImageZ\bin\Release\detailEnhance.dll;#2" /manifest Release\detailEnhance.dll.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“Release\detailEnhance.unsuccessfulbuild”。
+         正在对“Release\detailEnhance.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“C:\Users\Zack.J\Desktop\ImageZ\detailEnhance\detailEnhance.vcxproj”(rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:07.16

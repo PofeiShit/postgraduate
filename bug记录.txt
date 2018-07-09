@@ -1,0 +1,4 @@
+1.eps *= 255 * 255;
+2.step = WIDTHBYTES(width * cn);
+3.len =  step * Height; 地址会自动根据数据类型偏移相应的字节（uchar: 1, float : 4)
+4.ToolStripDropDownButton中的DropDown设置为无时，contextMenuStrip才能添加子菜单，否则vs2010会崩溃(laji)
